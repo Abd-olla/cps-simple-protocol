@@ -11,6 +11,6 @@ Project Components
 
 The implementation consists of three main components:
 
-    verifier.c: The trusted entity that initiates the attestation process. It sends an attestation request containing a counter, a nonce, and a valid software state. It verifies the prover’s response.
-    prover.c: The device being attested. It verifies the authenticity of the request, checks its freshness, and responds with an attestation report.
-    microvisor.c: A simulated microvisor environment that securely stores cryptographic keys and provides controlled access to them.
+verifier.c: The trusted entity that initiates the attestation process. It sends an attestation request containing a counter, a nonce, and a valid software state. It verifies the prover’s response.
+prover.c: The device being attested. It verifies the authenticity of the request, checks its freshness, and responds with an attestation report.
+microvisor.c: A simulated microvisor environment that securely stores cryptographic keys and provides controlled access to them.
